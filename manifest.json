@@ -1,0 +1,19 @@
+  {
+    "name": "Diversion",
+    "version": "1.0",
+    "description": "Tracks visits and seconds the user is on a website. The user then determines whether to block this website.",
+    "permissions": ["tabs", "webRequest", "webRequestBlocking", "<all_urls>", "storage", "unlimitedStorage"],
+    "manifest_version": 2,
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "browser_action": {
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
